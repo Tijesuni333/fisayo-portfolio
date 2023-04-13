@@ -1,0 +1,78 @@
+body{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.lenco{
+   display: flex;
+   justify-content: space-between; 
+   padding: 4rem;
+}
+img{
+    width: 80%;
+    border-radius: 4rem;
+}
+.lencoimg{
+    text-align: center;
+    width: 30%;
+    padding: 7rem;
+    border-radius: 3rem;
+    margin-right:3rem ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: rgb(0,0,0);
+    background: linear-gradient(2deg, rgba(0,0,0,1) 0%, rgba(131,153,207,1) 14%, rgba(255,255,255,0.9220063025210083) 100%);
+}
+.lencoimg h1{
+    font-size: 3rem;
+}
+.lencoimg h2{
+    font-size: 2rem;
+}
+.lencocampaign{
+    background-color: white;
+    margin-left: 2rem;
+    width: 70%;
+    border-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.lencocampaign h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+h3{
+    color: blue;
+}
+span{
+    color: red;
+}
+.end{
+    margin-left: 2rem;
+}
+p{
+    margin-right: 2rem;
+}
+@media (max-width:840px){
+    .lenco{
+        flex-direction: column;
+    }
+    .lencocampaign{
+        width: 100%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .lencocampaign h1{
+        font-size: 2rem;
+    }
+    img{
+       width: 100%;
+       height: 90px;
+    }
+    .lencoimg h1{
+        font-size: 1.7rem;
+    }
+    .lencoimg h2{
+        font-size: 1.3rem;
+    }
+}
