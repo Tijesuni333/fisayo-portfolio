@@ -454,6 +454,700 @@ span{
 .cal{
     color: green;
 }
+
+
+@media (max-width:320px){
+
+    header{
+       
+        background-position: right;
+    }
+    /* navbar */
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+    }
+    .logo p{
+        padding: 0;
+    }
+    .menubar{
+        display: contents; 
+    }
+    .menubar a{
+        color: white;
+        padding-right: 1rem;
+        animation: bounce 2s ease-in-out infinite;
+        padding: 0;
+    }
+    @keyframes bounce {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.5);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    .navlinks{
+        display: none;
+    }
+    .mobilelinks{
+        display: none;
+    }
+    .appear{
+        display: contents;
+    }
+    img{
+        width: 70%;
+    }
+    .mobilelinks ul{
+        list-style: none;
+        text-align: right;
+        padding: 0;
+    }
+    .mobilelinks a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 0.7em;
+        padding-left: 16rem;
+        width: 16vw;
+    }
+    .mobilelinks a:hover{
+        color: rgb(1, 1, 15);
+        background: white;
+
+    }
+      /* profile */
+    .imageprofile{
+        width: 80%;
+    }
+    .option li{
+        font-size: 0.8rem;
+    }
+    .main .text{
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        position: relative;
+        top: 3.1rem;
+        left: 1rem;
+    }
+    .imageprofile img{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 10rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 0.4rem;
+    }
+
+     /* aboutme */
+     #body{
+        padding: 0rem;
+        padding-top: 5rem;
+        width: 100%;
+    }
+    #body h1{
+        font-size: 2rem;
+        position: relative;
+        top: 0rem;
+    }
+    .bodyimage img{
+        width: 15rem;
+        height: 20rem;
+    }
+    .flexbody{
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        margin: auto;
+    }
+    .bodytext{
+        margin: 0rem;
+        padding: 0rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    .bodytext h2{
+        font-size: 1.7rem;
+    }
+    .downloadbtn{
+        position: relative;
+        bottom: 0rem;
+        margin: auto;
+    }
+    /* my services */
+    #services{
+        text-align: center;
+        position: relative;
+        bottom: 0rem;
+    }
+    #services h1{
+        padding: 0rem;
+        font-size: 1.7rem;          
+    }
+    #services p{
+        color: black;
+        width: 100%;
+        position: relative;
+        right: 2rem;
+    }
+    #services h1{
+        padding: 1rem;
+        font-size: 1.7rem;          
+    }
+    .container{
+        width: 60%;
+    }
+    .service{
+        color: #5a5656;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+   
+    /* marketing */
+    .marketing h1{
+        font-size: 2rem;
+    }
+    .flexmarket{
+        flex-direction: column;
+    }
+    .campaigns img{
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+    .text1{
+        width:270px;
+        height: 155px;
+        font-size: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0rem;
+    }
+    .text2{
+        width:270px;
+        height: 155px;
+        font-size: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0rem;
+    }
+      /* brands */
+      .brands{
+        padding: 0rem;
+        padding-bottom: 10rem;
+     }
+      .flexbrand{
+        flex-direction: column;
+       text-align: center;
+    }
+    .brands h1{
+        font-size: 2rem;
+    }
+    .brand img{
+        padding: 1rem;
+        width: 13rem;
+        height: 13rem;
+    }
+     /* contact me */
+     .con{
+        font-size: 3rem;
+    }
+    #contact h1{
+        font-size: 2rem;
+    }
+    .socials{
+        width: 100%;
+        flex-direction: column;
+    }
+    .socials a{
+        font-size: 0.8rem;
+        
+    }
+    header{
+        position: relative;
+        bottom: 3.3rem;
+    }
+    .fac{
+        padding: 1rem;
+        text-align: left;
+    }
+}
+
+@media (max-width:375px){
+
+    header{
+       
+        background-position: right;
+    }
+    /* navbar */
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+    }
+    .logo p{
+        padding: 0;
+    }
+    .menubar{
+        display: contents; 
+       
+    }
+    .menubar a{
+        color: white;
+        animation: bounce 2s ease-in-out infinite;
+        padding: 0;
+    }
+    @keyframes bounce {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.5);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    .navlinks{
+        display: none;
+    }
+    .mobilelinks{
+        display: none;
+    }
+    .appear{
+        display: contents;
+    }
+    img{
+        width: 70%;
+    }
+    .mobilelinks ul{
+        list-style: none;
+        text-align: right;
+        padding: 0;
+    }
+    .mobilelinks a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 0.7em;
+        padding-left: 19rem;
+        width: 16vw;
+    }
+    .mobilelinks a:hover{
+        color: rgb(1, 1, 15);
+        background: white;
+
+    }
+      /* profile */
+    .imageprofile{
+        width: 80%;
+    }
+    .option li{
+        font-size: 0.8rem;
+    }
+    .main .text{
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        position: relative;
+        top: 3.1rem;
+        left: 1rem;
+    }
+    .imageprofile img{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 10rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 0.4rem;
+    }
+
+     /* aboutme */
+     #body{
+        padding: 0rem;
+        padding-top: 5rem;
+        width: 100%;
+    }
+    #body h1{
+        font-size: 2rem;
+        position: relative;
+        top: 0rem;
+    }
+    .bodyimage img{
+        width: 15rem;
+        height: 20rem;
+    }
+    .flexbody{
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        margin: auto;
+    }
+    .bodytext{
+        margin: 0rem;
+        padding: 0rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    .bodytext h2{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .downloadbtn{
+        position: relative;
+        bottom: 0rem;
+        margin: auto;
+    }
+    /* my services */
+    #services{
+        text-align: center;
+        position: relative;
+        bottom: 0rem;
+    }
+    #services h1{
+        padding: 0rem;
+        font-size: 1.7rem;          
+    }
+    #services p{
+        color: black;
+        width: 100%;
+        position: relative;
+        right: 2rem;
+    }
+    #services h1{
+        padding: 1rem;
+        font-size: 1.7rem;          
+    }
+    .container{
+        width: 60%;
+    }
+    .service{
+        color: #5a5656;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+   
+    /* marketing */
+    .marketing h1{
+        font-size: 2rem;
+    }
+    .flexmarket{
+        flex-direction: column;
+    }
+    .campaigns img{
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+    .text1{
+        width:320px;
+        height: 185px;
+        font-size: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0rem;
+       
+    }
+    .text2{
+        width:320px;
+        height: 185px;
+        font-size: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0rem;
+    }
+      /* brands */
+      .brands{
+        padding: 0rem;
+        padding-bottom: 10rem;
+     }
+      .flexbrand{
+        flex-direction: column;
+       text-align: center;
+    }
+    .brands h1{
+        font-size: 1.7rem;
+    }
+    .brand img{
+        padding: 1rem;
+        width: 13rem;
+        height: 13rem;
+    }
+     /* contact me */
+     .con{
+        font-size: 3rem;
+    }
+    #contact h1{
+        font-size: 2rem;
+    }
+    .socials{
+        width: 100%;
+        flex-direction: column;
+    }
+    .socials a{
+        font-size: 0.8rem;
+        
+    }
+    header{
+        position: relative;
+        bottom: 3.3rem;
+    }
+    .fac{
+        padding: 1rem;
+        text-align: left;
+    }
+}
+
+@media (max-width:425px){
+
+    header{
+       
+        background-position: right;
+    }
+    /* navbar */
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+    }
+    .logo p{
+        padding: 0;
+    }
+    .menubar{
+        display: contents; 
+       
+    }
+    .menubar a{
+        color: white;
+        animation: bounce 2s ease-in-out infinite;
+        padding: 0;
+    }
+    @keyframes bounce {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.5);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    .navlinks{
+        display: none;
+    }
+    .mobilelinks{
+        display: none;
+    }
+    .appear{
+        display: contents;
+    }
+    img{
+        width: 70%;
+    }
+    .mobilelinks ul{
+        list-style: none;
+        text-align: right;
+        padding: 0;
+    }
+    .mobilelinks a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 0.7em;
+        padding-left: 22rem;
+        width: 16vw;
+    }
+    .mobilelinks a:hover{
+        color: rgb(1, 1, 15);
+        background: white;
+
+    }
+      /* profile */
+    .imageprofile{
+        width: 80%;
+    }
+    .option li{
+        font-size: 1rem;
+    }
+    .main .text{
+        color: black;
+        font-size: 1.2rem;
+        font-weight: 400;
+        position: relative;
+        top: 3.1rem;
+        left: 1rem;
+    }
+    .imageprofile img{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 10rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 0.4rem;
+    }
+
+     /* aboutme */
+     #body{
+        padding: 0rem;
+        padding-top: 5rem;
+        width: 100%;
+    }
+    #body h1{
+        font-size: 2rem;
+        position: relative;
+        top: 0rem;
+    }
+    .bodyimage img{
+        width: 15rem;
+        height: 20rem;
+    }
+    .flexbody{
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        margin: auto;
+    }
+    .bodytext{
+        margin: 0rem;
+        padding: 0rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    .bodytext h2{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .downloadbtn{
+        position: relative;
+        bottom: 0rem;
+        margin: auto;
+    }
+    /* my services */
+    #services{
+        text-align: center;
+        position: relative;
+        bottom: 0rem;
+    }
+    #services h1{
+        padding: 0rem;
+        font-size: 1.7rem;          
+    }
+    #services p{
+        color: black;
+        width: 100%;
+        position: relative;
+        right: 2rem;
+    }
+    #services h1{
+        padding: 1rem;
+        font-size: 1.7rem;          
+    }
+    .container{
+        width: 60%;
+    }
+    .service{
+        color: #5a5656;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+   
+    /* marketing */
+    .marketing h1{
+        font-size: 2rem;
+    }
+    .flexmarket{
+        flex-direction: column;
+    }
+    .campaigns img{
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+    .text1{
+        width:370px;
+        height: 214px;
+        font-size: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0rem;
+       
+    }
+    .text2{
+        width:370px;
+        height: 214px;
+        font-size: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0rem;
+    }
+      /* brands */
+      .brands{
+        padding: 0rem;
+        padding-bottom: 10rem;
+     }
+      .flexbrand{
+        flex-direction: column;
+       text-align: center;
+    }
+    .brands h1{
+        font-size: 1.4rem;
+    }
+    .brand img{
+        padding: 1rem;
+        width: 13rem;
+        height: 13rem;
+    }
+     /* contact me */
+     .con{
+        font-size: 3rem;
+    }
+    #contact h1{
+        font-size: 2rem;
+    }
+    .socials{
+        width: 100%;
+        flex-direction: column;
+    }
+    .socials a{
+        font-size: 0.8rem;
+        
+    }
+    header{
+        position: relative;
+        bottom: 3.3rem;
+    }
+    .fac{
+        padding: 1rem;
+        padding-left: 2rem;
+        text-align: left;
+    }
+}
+
 @media (max-width:840px){
     /* navbar */
     .navbar{
@@ -511,7 +1205,7 @@ span{
         text-decoration: none;
         color: white;
         padding: 0.7em;
-        padding-left: 25rem;
+        padding-left: 40rem;
         width: 16vw;
     }
     .mobilelinks a:hover{
@@ -524,10 +1218,17 @@ span{
     .imageprofile{
         width: 80%;
     }
+    .bodytext h2{
+        text-align: center;
+    }
     .option li{
         font-size: 1.4rem;
     }
-
+    .downloadbtn{
+        position: relative;
+        
+        margin: auto;
+    }
     /* aboutme */
     #body{
         padding: 0rem;
@@ -558,20 +1259,21 @@ span{
         margin-bottom: 3rem;
     }
     .text1{
-        width:350px;
-        height: 200px;
+        width:580px;
+        height: 324px;
         font-size: 1.4rem;
         position: absolute;
         top: 0;
-        left: 2.2rem;
+        left: 3.9rem;
+        
     }
     .text2{
-        width:350px;
-        height: 200px;
+        width:580px;
+        height: 324px;
         font-size: 1.4rem;
         position: absolute;
         top: 0;
-        left: 2.2rem; 
+        left: 3.9rem;
     }
     /* brands */
     .flexbrand{
@@ -604,3 +1306,4 @@ span{
         bottom: 3.3rem;
     }
 }
+

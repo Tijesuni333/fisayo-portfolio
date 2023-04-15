@@ -1,10 +1,26 @@
 // navbar
 const bar = document.querySelector('.menubar');
 const menu = document.querySelector('.mobilelinks');
+const home = document.querySelector('.home');
+const about = document.querySelector('.about');
+const servic = document.querySelector('.servic');
+const contac = document.querySelector('.contac');
 
 bar.addEventListener('click', ()=>{
    menu.classList.toggle('appear');
-})
+});
+home.addEventListener('click', ()=>{
+    menu.classList.remove('appear');
+ });
+ about.addEventListener('click', ()=>{
+    menu.classList.remove('appear');
+ });
+ servic.addEventListener('click', ()=>{
+    menu.classList.remove('appear');
+ });
+ contac.addEventListener('click', ()=>{
+    menu.classList.remove('appear');
+ });
 
 
 // my services
