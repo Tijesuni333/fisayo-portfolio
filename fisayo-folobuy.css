@@ -56,128 +56,139 @@ span{
 p{
     margin-right: 2rem;
 }
-@media (max-width:320px){
+@media (max-width:400px){
     .folobuy{
         flex-direction: column;
+        padding: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .folobuyimg{
         padding: 0;
         margin: 0;
         width: 100%;
         border-radius: 3rem;
-       }
-     
-       img{
-          width: 100%;
-       }
-       .folobuyimg h1{
-           font-size: 1.3rem;
-           padding: 1rem;
-       }
-       .folobuyimg h2{
-           font-size: 1.0rem;
-           padding: 1rem;
-       }
-       .folobuycampaign{
-           width: 190%;
-           margin: auto;
-       }
-       .folobuycampaign h1{
-           font-size: 2rem;
-       }
-}
-@media (max-width:375px){
-    .folobuy{
-        flex-direction: column;
     }
-    .folobuyimg{
-        padding: 0;
-        margin: 0;
+    img{
         width: 100%;
-        border-radius: 3rem;
-       }
-     
-       img{
-          width: 100%;
-       }
-       .folobuyimg h1{
-           font-size: 1.3rem;
-           padding: 1rem;
-       }
-       .folobuyimg h2{
-           font-size: 1.0rem;
-           padding: 1rem;
-       }
-       .folobuycampaign{
-           width: 130%;
-           margin: auto;
-           margin-top: 3rem;
-           position: relative;
-           right: 1.7rem;
-       }
-       .folobuycampaign h1{
-           font-size: 2rem;
-       }
-}
-@media (max-width:425px){
-    .folobuy{
-        flex-direction: column;
-        padding: 2rem;
     }
-    .folobuyimg{
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        border-radius: 3rem;
-       }
-     
-       img{
-          width: 100%;
-       }
-       .folobuyimg h1{
-           font-size: 1.3rem;
-           padding: 1rem;
-       }
-       .folobuyimg h2{
-           font-size: 1.0rem;
-           padding: 1rem;
-       }
-       .folobuycampaign{
-           width: 130%;
-           margin: auto;
-           
-           margin-top: 3rem;
-           position: relative;
-           right: 1.7rem;
-       }
-       .folobuycampaign h1{
-           font-size: 2rem;
-       }
-}
-@media (max-width:840px){
-    .folobuy{
-        flex-direction: column;
+    .folobuyimg h1{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    .folobuyimg h2{
+        font-size: 1rem;
+        padding: 1rem;
     }
     .folobuycampaign{
+        padding: 0;
         width: 100%;
         margin: auto;
         margin-top: 3rem;
     }
-    img{
-       width: 100%;
-       height: 90px;
+    .folobuycampaign h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:600px){
+    .folobuy{
+        flex-direction: column;
+        padding: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .folobuyimg{
-        margin: auto;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        border-radius: 3rem;
     }
     img{
-        width: 200px;
-        height: 200px;
-     }
+        width: 100%;
+    }
     .folobuyimg h1{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+        padding: 1rem;
     }
     .folobuyimg h2{
+        font-size: 1.0rem;
+        padding: 1rem;
+    }
+    .folobuycampaign{
+        padding: 0;
+        width: 100%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .folobuycampaign h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:768px){
+    .folobuy{
+        flex-direction: column;
+        padding: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .folobuyimg{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        border-radius: 3rem;
+    }
+    img{
+        width: 100%;
+    }
+    .folobuyimg h1{
         font-size: 1.3rem;
+        padding: 1rem;
+    }
+    .folobuyimg h2{
+        font-size: 1.0rem;
+        padding: 1rem;
+    }
+    .folobuycampaign{
+        padding: 0;
+        width: 100%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .folobuycampaign h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:900px){
+    .folobuy{
+        flex-direction: column;
+        padding: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .folobuyimg{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        border-radius: 3rem;
+    }
+    img{
+        width: 100%;
+    }
+    .folobuyimg h1{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    .folobuyimg h2{
+        font-size: 1.0rem;
+        padding: 1rem;
+    }
+    .folobuycampaign{
+        padding: 0;
+        width: 100%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .folobuycampaign h1{
+        font-size: 2rem;
     }
 }

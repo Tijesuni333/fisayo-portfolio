@@ -53,19 +53,21 @@ span{
 p{
     margin-right: 2rem;
 }
-@media (max-width:320px){
+@media (max-width:400px){
     .lenco{
         flex-direction: column;
+        padding: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .lencoimg{
      padding: 0;
-     margin: 0;
+     margin: auto;
      width: 100%;
      border-radius: 3rem;
     }
-  
     img{
-       width: 100%;
+        width: 100%;
     }
     .lencoimg h1{
         font-size: 1.3rem;
@@ -74,108 +76,116 @@ p{
     .lencoimg h2{
         font-size: 1.0rem;
         padding: 1rem;
-    }
-    .lencocampaign{
-        width: 130%;
-        margin: auto;
-        margin-top: 3rem;
-        position: relative;
-        right: 1.7rem;
-    }
-    .lencocampaign h1{
-        font-size: 2rem;
-    }
-}  
-
-@media (max-width:375px){
-    .lenco{
-        flex-direction: column;
-    }
-    .lencoimg{
-     padding: 0;
-     margin: 0;
-     width: 100%;
-     border-radius: 3rem;
-    }
-  
-    img{
-       width: 100%;
-    }
-    .lencoimg h1{
-        font-size: 1.3rem;
-        padding: 1rem;
-    }
-    .lencoimg h2{
-        font-size: 1.0rem;
-        padding: 1rem;
-    }
-    .lencocampaign{
-        width: 130%;
-        margin: auto;
-        margin-top: 3rem;
-        position: relative;
-        right: 1.7rem;
-    }
-    .lencocampaign h1{
-        font-size: 2rem;
-    }
-}  
-@media (max-width:425px){
-    .lenco{
-        flex-direction: column;
-    }
-    .lencoimg{
-     padding: 0;
-     margin: 0;
-     width: 100%;
-     border-radius: 3rem;
-    }
-  
-    img{
-       width: 100%;
-    }
-    .lencoimg h1{
-        font-size: 1.3rem;
-        padding: 1rem;
-    }
-    .lencoimg h2{
-        font-size: 1.0rem;
-        padding: 1rem;
-    }
-    .lencocampaign{
-        width: 130%;
-        margin: auto;
-        margin-top: 3rem;
-        position: relative;
-        right: 1.7rem;
-    }
-    .lencocampaign h1{
-        font-size: 2rem;
-    }
-}  
-@media (max-width:840px){
-    .lenco{
-        flex-direction: column;
-    }
-    .lencoimg{
-        margin: auto;
     }
     .lencocampaign{
         width: 100%;
+        padding: 0;
         margin: auto;
         margin-top: 3rem;
     }
     .lencocampaign h1{
         font-size: 2rem;
     }
+}
+@media (max-width:600px){
+    .lenco{
+        flex-direction: column;
+        padding: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .lencoimg{
+     padding: 0;
+     margin: auto;
+     width: 100%;
+     border-radius: 3rem;
+    }
     img{
-       width: 200px;
-       height: 200px;
+        width: 100%;
     }
     .lencoimg h1{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+        padding: 1rem;
     }
     .lencoimg h2{
+        font-size: 1.0rem;
+        padding: 1rem;
+    }
+    .lencocampaign{
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .lencocampaign h1{
+        font-size: 2rem;
+    }
+}  
+@media (max-width:768px){
+    .lenco{
+        flex-direction: column;
+        padding: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .lencoimg{
+     padding: 0;
+     margin: auto;
+     width: 100%;
+     border-radius: 3rem;
+    }
+    img{
+        width: 100%;
+    }
+    .lencoimg h1{
         font-size: 1.3rem;
+        padding: 1rem;
+    }
+    .lencoimg h2{
+        font-size: 1.0rem;
+        padding: 1rem;
+    }
+    .lencocampaign{
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .lencocampaign h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:900px){
+    .lenco{
+        flex-direction: column;
+        padding: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .lencoimg{
+     padding: 0;
+     margin: auto;
+     width: 100%;
+     border-radius: 3rem;
+    }
+    img{
+        width: 100%;
+    }
+    .lencoimg h1{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    .lencoimg h2{
+        font-size: 1.0rem;
+        padding: 1rem;
+    }
+    .lencocampaign{
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .lencocampaign h1{
+        font-size: 2rem;
     }
 }
